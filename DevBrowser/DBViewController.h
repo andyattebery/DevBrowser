@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DBViewController : UIViewController
+@interface DBViewController : UIViewController <UIWebViewDelegate, UITextFieldDelegate>
+
+- (IBAction)btnGoClicked:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIWebView *mainWebView;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *setHeadersButton;
+@property (weak, nonatomic) IBOutlet UITextField *addressBar;
+
+
 
 @end
