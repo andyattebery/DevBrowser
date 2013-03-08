@@ -125,16 +125,16 @@
 		16B61DBB16DEB94F00E4B018 /* DevBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				16D0656C16DFC9690041684C /* Models */,
 				16B61DC416DEB94F00E4B018 /* DBAppDelegate.h */,
 				16B61DC516DEB94F00E4B018 /* DBAppDelegate.m */,
 				16B61DCD16DEB94F00E4B018 /* MainStoryboard_iPhone.storyboard */,
 				16B61DD016DEB94F00E4B018 /* MainStoryboard_iPad.storyboard */,
 				16B61DD316DEB94F00E4B018 /* DBViewController.h */,
 				16B61DD416DEB94F00E4B018 /* DBViewController.m */,
-				16B61DBC16DEB94F00E4B018 /* Supporting Files */,
 				16D0657016E02D4F0041684C /* DBHeadersViewController.h */,
 				16D0657116E02D4F0041684C /* DBHeadersViewController.m */,
+				16D0656C16DFC9690041684C /* Models */,
+				16B61DBC16DEB94F00E4B018 /* Supporting Files */,
 			);
 			path = DevBrowser;
 			sourceTree = "<group>";
